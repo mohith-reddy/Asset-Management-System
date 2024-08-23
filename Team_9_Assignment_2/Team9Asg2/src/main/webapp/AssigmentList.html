@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            padding: 12px 24px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<form action="listForm" method="get">
+    <fieldset id="info">
+
+
+        <label for="id">Employee ID:</label>
+        <input id="id" type="text" size="20" name="eid" value="1111"><br><br>
+
+        <input type="submit" value="Get Employee Assignment">
+        <input type="submit" formaction="index.jsp" value="Main Menu">
+    </fieldset>
+</form>
+
+</body>
+</html>
